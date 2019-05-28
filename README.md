@@ -11,15 +11,15 @@ On slave node, two items are executed; data node/node manager.
 The goal of tuning is getting the highest performance of on each own's environment.
 There are three major factors for performance.
 
-#####1.Replication
+##### 1.Replication
 This factor determines the number of copy of hdfs files. If the replication is large, it will have more probability to utilize locality. However, the number of write operation will also increase, which causes overheads.
 This property is in hdfs-site.xml. (dfs.replication)
 
-#####2.Blcok size
+##### 2.Blcok size
 This factor determines the block size of hdfs file system. If it is large, it can reduces initialization and I/O overheads because the number of blocks are reduced.
 This property is in hdfs-site.xml. (dfs.blocksize)
 
-#####3.CPU and Memory Configuration
+##### 3.CPU and Memory Configuration
 This factor determines the memory or CPU allocation of nodemanager, app-master, mapper and reducer.
 If physical memory or CPU is allowed, the more resources is allocated, the better performance is naturally.
 
