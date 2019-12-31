@@ -27,3 +27,4 @@ If physical memory or CPU is allowed, the more resources is allocated, the bette
 ### Conclusion
 There are more factors such as buffer size but above three are usually major factors.
 There is no absolute answer. The optimized configuration is case by case.
+To see the detailed explanation, please click [here](https://aldlfkahs.github.io/Portfolio/hadoop%20report.pdf).
